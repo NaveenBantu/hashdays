@@ -1,9 +1,8 @@
 import React from 'react'
-import './Day.css'
 
-const Day = ({number}) => {
+const Day = ({ number }) => {
   return (
-    <div className='box'>{number}</div>
+    <div className='bg-slate-300 p-4 hover:bg-slate-200 text-center'>{number}</div>
   )
 }
 
